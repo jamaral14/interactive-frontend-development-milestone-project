@@ -53,3 +53,15 @@ cursor: pointer;
     box-shadow: 2px 3px 3px #383838;
     transition: background-color 300ms;
 }
+
+.deck {
+	width: 85%;
+	background: #eee;
+	padding: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 0 3em;
+}
+
