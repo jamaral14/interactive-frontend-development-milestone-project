@@ -36,3 +36,20 @@ h1 {
     font-size: 2em;
     font-weight: bold;
 }
+
+.restart-button-wrapper {
+    margin: .5rem 0 2rem;
+}
+
+.restart-button {
+cursor: pointer;
+    background-color: #005ADC;
+    border: none;
+    color: #fefdfb;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: .3rem;
+    box-shadow: 2px 3px 3px #383838;
+    transition: background-color 300ms;
+}
