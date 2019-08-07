@@ -9,9 +9,6 @@ cards.addEventListener("click", function () {
     cards.classList.toggle("open", "show");
 });
 
-var cards = [... card];
-console.log(cards[12]);
-
 function shuffle(array) {
 
 
