@@ -69,7 +69,7 @@ h1 {
     height: 3.7rem;
     width: 3.7rem;
     margin: 0.2rem 0.2rem;
-    background: #ffffff url("img/ponto.png") no-repeat center;
+    background: #ffffff;
     font-size: 0;
     color: #ffffff;
     border-radius: 5px;
