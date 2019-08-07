@@ -20,7 +20,7 @@
 
     <div class="container">
         <div class="title">
-            <h1>Find the Match :)</h1>
+            <h1>Find the Match 🎉</h1>
         </div>
 
         <section class="score-panel">
@@ -44,7 +44,7 @@
             <li class="card" type="bug">
                 <i class="fa fa-bug"></i>
             </li>
-            <li class="card match" type="ring">
+            <li class="card" type="ring">
                 <i class="fa fa-life-ring"></i>
             </li>
             <li class="card" type="start" >
@@ -83,14 +83,30 @@
              <li class="card" type="bug">
                 <i class="fa fa-bug"></i>
             </li>
-             <li class="card" type="anchor">
+             <li class="card match" type="anchor">
                 <i class="fa fa-anchor"></i>
             </li>
         </ul>
         
-        
-        
-        
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Congrats :)</h2>
+                <a class="close" href=# >×</a>
+                <div class="content-1">
+                    Yupiii you're a winner!!
+                </div>
+                <div class="content-2">
+                    <p>You made <span id=finalMove> </span> moves </p>
+                    <p>in <span id=totalTime> </span> </p>
+                    <p>Rating:  <span id=starRating></span></p>
+                </div>
+                <button id="play-again"onclick="playAgain()">
+                    Try again?</a>
+                </button>
+            </div>
+        </div>
+         </div>
+    <script src="js/script.js"></script>
 
 </body>
 
