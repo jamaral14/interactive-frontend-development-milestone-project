@@ -1,9 +1,7 @@
 /* cards array holds all cards */
 
-var card = document.querySelectorAll('.card');
-console.log(card);
 var cards = document.getElementsByClassName('card');
-console.log(cards);
+
 
 cards.addEventListener("click", function () {
     cards.classList.toggle("open", "show");
