@@ -3,9 +3,16 @@
 var cards = document.getElementsByClassName('card');
 
 
-cards.addEventListener("click", function () {
-    cards.classList.toggle("open", "show");
-});
+
+var cardFunction = function (){
+    this.classList.toggle("open");
+    this.classList.toggle("show");
+};
+
+for (var i = 0; i < cards.length; i++){
+    cards[i].addEventListener("click", cardFunction);
+}
+
 
 function shuffle(array) {
 
