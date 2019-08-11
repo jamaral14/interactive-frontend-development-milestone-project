@@ -275,3 +275,42 @@ h1 {
 	}
 }
 
+/****************************************************** Media queries*/
+
+
+@media (max-width: 320px) {
+	.deck {
+		width: 85%;
+	}
+
+	.deck .card {
+		height: 4.7rem;
+		width: 4.7rem;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.container {
+		font-size: 22px;
+	}
+
+	.deck {
+		width: 660px;
+		height: 680px;
+	}
+
+	.deck .card {
+		height: 125px;
+		width: 125px;
+	}
+
+	.popup {
+		width: 60%;
+	}
+}
+
+/*-@media* (sm)devices-Phones->(min-width:320px) (md) tablets (min-width:768px) (lg) desktop (min-width:992px) (xl) (min-width:1200px) /
+
+
+
