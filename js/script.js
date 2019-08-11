@@ -1,6 +1,27 @@
-/* cards array holds all cards */
+// cards array holds all cards
+let card = document.getElementsByClassName("card");
+let cards = [...card];
 
-var cards = document.getElementsByClassName('card');
+
+
+
+
+var openedCards = [];
+
+
+function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+
+    while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+};
 
 /*  if all cards have matched, display a message with the final score!!*/
 
@@ -8,6 +29,20 @@ var displayCard = function (){
     this.classList.toggle("open");
     this.classList.toggle("show");
 };
+
+// @description add opened cards to OpenedCards list and check if cards are match or not
+function cardOpen() {
+    openedCards.push(this);
+    var len = openedCards.length;
+   if(openedCards.length === 2){
+        if(openedCards[0].type === openedCards[1].type){
+            matched();
+        } else {
+            unmatched();
+        }
+    }
+};
+
 
 for (var i = 0; i < cards.length; i++){
     var card = cards[i];
@@ -23,12 +58,6 @@ for (var i = 0; i < cards.length; i++){
     cards[i].addEventListener("click", cardFunction);
 }
 
-
-function shuffle(array) {
-
-
-    return array; 
-}
 
 /* set up the event listener for a card. */ 
 
