@@ -5,7 +5,6 @@ let cards = [...card];
 
 
 
-
 var openedCards = [];
 
 
@@ -34,7 +33,8 @@ var displayCard = function (){
 function cardOpen() {
     openedCards.push(this);
     var len = openedCards.length;
-   if(openedCards.length === 2){
+    if(len === 2){
+        moveCounter();
         if(openedCards[0].type === openedCards[1].type){
             matched();
         } else {
