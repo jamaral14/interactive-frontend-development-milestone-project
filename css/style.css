@@ -1,3 +1,4 @@
+/*----------------------------------html and body--------------------- */
 html {
     box-sizing: border-box;
 }
@@ -21,7 +22,7 @@ body {
     font-family: 'Permanent Marker', cursive;
     font-size: 16px;
 }
-
+/*----------------------------------container and title style--------------------- */
 
 .container {
     display: flex;
@@ -37,7 +38,7 @@ h1 {
     font-weight: bold;
 }
 
-
+/*----------------------------------Resert button--------------------- */
 .restart-button-wrapper {
     margin: .5rem 0 2rem;
 }
@@ -54,7 +55,7 @@ h1 {
     box-shadow: 2px 3px 3px #383838;
     transition: background-color 300ms;
 }
-
+/*----------------------------------deck styes--------------------- */
 .deck {
     width: 85%;
     background: radial-gradient(#67c322, #2dfdcd);
@@ -131,7 +132,7 @@ h1 {
     pointer-events: none;
     opacity: 0.9;
 }
-
+/*----------------------------------overlay--------------------- */
 .overlay {
 	position: fixed;
 	top: 0;
@@ -148,6 +149,8 @@ h1 {
 	visibility: visible;
 	opacity: 1;
 }
+
+/*----------------------------------Popup--------------------- */
   
 .popup {
 	margin: 70px auto;
@@ -205,6 +208,8 @@ h1 {
 	color: #ffffff;
 	border-radius: 5px;
 }
+/*----------------------------------Keyframes--------------------- */
+
 
 @keyframes flipInY {    /*https://www.tutorialspoint.com/css/css_animation_flip*/
 	from {
@@ -277,7 +282,7 @@ h1 {
 
 
 
-/****************************************************** Media queries*/
+/*------------------------------------------------Media queries-----------------------*/
 
 
 @media (max-width: 320px) {
