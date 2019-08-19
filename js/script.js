@@ -53,7 +53,10 @@ function startGame() {
     }
     // reset moves
     moves = 0;
+    second = 0;
+    minute = 0;
     counter.innerHTML = moves;
+    
 }
 //reset timer
 second = 0;
@@ -183,14 +186,15 @@ function startTimer() {
 function congratulations() {
     if (matchedCard.length == 16) {
         clearInterval(interval);
-        finalTime = timer.innerHTML;
+
+        
 
         // show congratulations modal
         modal.classList.add("show");
 
 document.getElementById("finalMove").innerHTML = moves;
 
-document.getElementById("totalTime").innerHTML = finalTime;
+
 
         
 
