@@ -1,12 +1,13 @@
 /*----------------------------------html and body--------------------- */
+
 html {
     box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
+*, /* universal selector ----> https://css-tricks.com/almanac/selectors/u/universal/ */
+*:before,
+*:after {
+ box-sizing: inherit;
 }
 
 html,
@@ -43,7 +44,7 @@ h1 {
     margin: .5rem 0 2rem;
 }
 
-.restart-button {
+.restart-button {     /*-----------------Button -------->  https://getbootstrap.com/docs/4.0/components/buttons/-------- */
     cursor: pointer;
     background-color: #005ADC;
     border: none;
@@ -54,6 +55,7 @@ h1 {
     border-radius: 2.3rem;
     box-shadow: 2px 3px 3px #383838;
     transition: background-color 300ms;
+    margin-top: 20px;
 }
 /*----------------------------------deck styes--------------------- */
 .deck {
@@ -109,7 +111,7 @@ h1 {
 }
 
 .deck .card.unmatched {
-    animation-name: pulse;
+       animation-name: pulse;
     -webkit-backface-visibility: visible !important;
     backface-visibility: visible !important;
     animation-duration: .75s;
@@ -211,7 +213,7 @@ h1 {
 /*----------------------------------Keyframes--------------------- */
 
 
-@keyframes flipInY {    /*https://www.tutorialspoint.com/css/css_animation_flip*/
+  @keyframes flipInY {    /*https://www.tutorialspoint.com/css/css_animation_flip*/
 	from {
 		transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
 		animation-timing-function: ease-in;
@@ -234,6 +236,7 @@ h1 {
 }
 
 }
+
 
 
 @keyframes rubberBand {
@@ -266,6 +269,7 @@ h1 {
 	}
 }
 
+
 @keyframes pulse {
 	from {
 		transform: scale3d(1, 1, 1);
@@ -279,7 +283,6 @@ h1 {
 		transform: scale3d(1, 1, 1);
 	}
 }
-
 
 
 /*------------------------------------------------Media queries-----------------------*/
