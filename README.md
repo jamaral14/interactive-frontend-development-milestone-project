@@ -1,10 +1,29 @@
-# Interactive Frontend Development Milestone Project :ambulance:
+# Interactive Frontend Development Milestone Project 
 
-## Mix or Match Medical Game  
+```bash
+## Mix or Match Medical Game  :ambulance:
+```
 
 # Play the Game
 
-You can play the game <https://jamaral14.github.io/interactive-frontend-development-milestone-project/> enjoy ;)
+You can play the game [here] (https://jamaral14.github.io/interactive-frontend-development-milestone-project/) 
+
+
+## UX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # How do you play memory match game?
 
