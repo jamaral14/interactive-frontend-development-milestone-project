@@ -1,14 +1,23 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# Interactive Frontend Development Milestone Project
+
+## Mix or Match Medical Game
+
+# Play the Game
+
+You can play the game [here] (https://jamaral14.github.io/interactive-frontend-development-milestone-project/) enjoy ;)
+
+# How do you play memory match game?
+
+* 1. Mix up the cards.
+* 2. Lay them in rows, face down.
+* 3. Turn over any two cards.
+* 4. If the two cards match, keep them.
+* 5. If they don't match, turn them back over.
+* 6. Remember what was on each card and where it was.
+* 7. Watch and remember during the other player's turn.
+* 8. The game is over when all the cards have been matched.
 
 
-Hi there! Welcome to AWS Cloud9!
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
 
-Happy coding!
+
