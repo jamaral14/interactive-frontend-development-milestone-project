@@ -60,7 +60,7 @@ h1 {
 /*----------------------------------deck styes--------------------- */
 .memory-game {
     width: 85%;
-    background: radial-gradient(#67c322, #2dfdcd);
+    background: none;
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
