@@ -14,7 +14,7 @@ let modal = document.getElementById("popup1");
 
 var openedCards = [];
 
-const deck = document.getElementById("card-deck");        //all the cards in the game.
+const memoryGame = document.getElementById("memory-card");        //all the cards in the game.
 
 function shuffle(array) {        // https://gomakethings.com/how-to-shuffle-an-array-with-vanilla-js/
     var currentIndex = array.length,
@@ -45,9 +45,9 @@ function startGame() {
     cards = shuffle(cards);
 
     for (var i = 0; i < cards.length; i++) {
-        deck.innerHTML = "";
+        memoryGame.innerHTML = "";
         [].forEach.call(cards, function(item) {
-            deck.appendChild(item);
+            memoryGame.appendChild(item);
         });
         cards[i].classList.remove("show", "open", "match", "disabled");
     }
