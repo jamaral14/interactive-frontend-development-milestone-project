@@ -72,11 +72,13 @@ h1 {
 
 
 
+
 .memory-game .card {
     height: 3.7rem;
     width: 3.7rem;
     margin: 0.2rem 0.2rem;
-    background: #0270e4;
+    background: -webkit-repeating-linear-gradient(60deg, #333,      #02b3e4 5px,      #333 6px,      #333 6px,      #02b3e4 7px),
+    -webkit-repeating-linear-gradient(266deg,      #02b3e4,      #02b3e4 5px,      #e5f720 6px,      #e5f720 6px,      #333 7px); /*https://cssgradient.io/blog/repeating-linear-gradient-css/*/
     font-size: 0;
     color: #ffffff;
     border-radius: 75px;
