@@ -1,15 +1,20 @@
 # Interactive Frontend Development Milestone Project 
 
-```bash
+
 ## Mix or Match Medical Game  :ambulance:
-```
 
 # Play the Game
 
-You can play the game [here] (https://jamaral14.github.io/interactive-frontend-development-milestone-project/) 
+You can play the game (https://jamaral14.github.io/interactive-frontend-development-milestone-project/) 
 
 
-## UX
+## Browser Compatibility
+
+* Chrome 24
+* Firefox 18
+
+
+
 
 
 
