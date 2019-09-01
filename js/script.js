@@ -214,7 +214,14 @@ function closeModal() {       // function "closeModal" close icon on modal
 function playAgain() {    // function playAgain asks for the player's to play Again?
     modal.classList.remove("show");
     startGame();
+    moves = 0;
+    second = 0;
+    minute = 0;
+    counter.innerHTML = moves;
+    timer.innerHTML = "0 mins 0 secs";  // make sure everything is reset moves and time
 }
+
+
 
 
 for (var i = 0; i < cards.length; i++) {       //// loop to add event listeners to each card  //https://www.w3schools.com/js/js_loop_for.asp
