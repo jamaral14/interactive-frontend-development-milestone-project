@@ -45,6 +45,7 @@ of the overall site for every page in Mobile and Tablet, portrait, landscape and
 - [HTML validator](https://validator.w3.org/)
 - [CSS validator](https://jigsaw.w3.org/css-validator/)
 - [JS validator](https://codebeautify.org/jsvalidate)
+- Tested entire site on [Responsinator](http://www.responsinator.com) as backup to ensure responsiveness.
 
 # Non Local Host Testing
 
