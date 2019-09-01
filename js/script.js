@@ -191,7 +191,7 @@ function congratulations() {             //congratulations when all the 16 cards
        
         modal.classList.add("show");   // show congratulations 
 
-document.getElementById("finalMove").innerHTML = moves;
+document.getElementById("totalTime").innerHTML = minute + "mins " + second + "secs" ;
 
 
 
