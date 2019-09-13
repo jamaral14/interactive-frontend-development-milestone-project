@@ -31,7 +31,7 @@ You can play the game [here](https://jamaral14.github.io/interactive-frontend-de
 * created a memory Game of cards that shuffles evertime the game is refreshed.
 * created a counter and timer to know the duration and moves of a play.
 * added color and keyframes( pulse, flipInY, and rubberBand) effects to cards when they match and are unmatched.
-* create a popup modal when player wins game shows a mensage to the player when finihs all the macthes.
+* created a popup modal when player wins game shows a mensage to the player when finishes all the matches.
 
 
 ## Technologies Used 
